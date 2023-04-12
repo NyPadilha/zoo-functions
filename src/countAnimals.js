@@ -1,7 +1,5 @@
 const data = require('../data/zoo_data');
 
-const countAnimals = (animal) => {
-  // seu código aqui
-};
+const countAnimals = (animal) => {};
 
 module.exports = countAnimals;
