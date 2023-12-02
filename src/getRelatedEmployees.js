@@ -1,4 +1,3 @@
-const data = require('../data/zoo_data');
 const { employees } = require('../data/zoo_data');
 
 const isManager = (id) => employees.map((employee) => employee.managers)

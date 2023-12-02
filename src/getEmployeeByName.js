@@ -1,4 +1,3 @@
-const data = require('../data/zoo_data');
 const { employees } = require('../data/zoo_data');
 
 const getEmployeeByName = (employeeName) => (employeeName === undefined ? {}

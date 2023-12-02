@@ -1,6 +1,4 @@
-const data = require('../data/zoo_data');
-const { employees } = require('../data/zoo_data');
-const { species } = require('../data/zoo_data');
+const { employees, species } = require('../data/zoo_data');
 
 const objects = (funcionario, animals, localization) => ({
   id: funcionario.id,

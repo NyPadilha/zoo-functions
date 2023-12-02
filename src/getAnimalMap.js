@@ -1,4 +1,3 @@
-const data = require('../data/zoo_data');
 const { species } = require('../data/zoo_data');
 
 const getAnimalsByLocal = (local) => species.filter((i) => i.location === local);
